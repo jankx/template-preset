@@ -1,0 +1,21 @@
+{
+    "name": "jankx/template-preset",
+    "description": "Create multi-layouts for theme support 1 click import",
+    "type": "library",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Puleeno Nguyen",
+            "email": "puleeno@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^5.6|^7.3",
+        "jankx/core": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jankx\\Preset\\": "src/"
+        }
+    }
+}
